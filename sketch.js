@@ -1,5 +1,5 @@
 ////////////////INFO & FEATURES
-let myTitle = "Tapestry";
+let myTitle = "Modern Tapestry";
 let present = '<h2>' + myTitle + '</h2><h3>by smldms</h3><hr>'
 console.log(myTitle + " | smldms 2022.08"), console.log("HASH: " + fxhash);
 console.log(window.$fxhashFeatures = {
