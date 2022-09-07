@@ -1,5 +1,5 @@
 ////////////////INFO & FEATURES
-let myTitle = "Chevron";
+let myTitle = "Tapestry";
 let present = '<h2>' + myTitle + '</h2><h3>by smldms</h3><hr>'
 console.log(myTitle + " | smldms 2022.08"), console.log("HASH: " + fxhash);
 console.log(window.$fxhashFeatures = {
@@ -9,7 +9,7 @@ console.log(window.$fxhashFeatures = {
 let seed = Math.floor(999999 * fxrand());
 let globalW = window.innerWidth;
 let globalH = window.innerHeight;
-let globalSize = 1280 / 2;
+let globalSize = 1280;
 let cnv;
 let pD = 1;
 let gen;
@@ -37,9 +37,9 @@ function setup() {
     background(5);
     angleMode(DEGREES)
     rectMode(CENTER)
-    r = 200 * fxrand();
-    g = 200 * fxrand();
-    b = 200 * fxrand();
+    r = 250 * fxrand();
+    g = 250 * fxrand();
+    b = 250 * fxrand();
     a = 150 * fxrand() + 10;
     // fill(r,g,b,a/2)
     stroke(r, g, b)
