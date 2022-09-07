@@ -20,8 +20,7 @@ let tileCountY = 6 * format.hh;
 let r, g, b, a;
 let xoff = 0.01
 
-let drawMode = 2;
-// let drawMode = Math.floor(fxrandBetween(1,3.99999));
+let drawMode;
 // rValue = 1000;
 rValue = fxrand() * 3600;
 
@@ -41,7 +40,6 @@ function setup() {
     g = 250 * fxrand();
     b = 250 * fxrand();
     a = 150 * fxrand() + 10;
-    // fill(r,g,b,a/2)
     stroke(r, g, b)
     strokeWeight(longSide / 2500)
     let tileWidth = width / tileCountX;
